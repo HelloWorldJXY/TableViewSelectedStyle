@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E14AF3251D4745C800B2A49A"
+               BuildableName = "TableViewSelectedStyle.app"
+               BlueprintName = "TableViewSelectedStyle"
+               ReferencedContainer = "container:TableViewSelectedStyle.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E14AF3391D4745C800B2A49A"
+               BuildableName = "TableViewSelectedStyleTests.xctest"
+               BlueprintName = "TableViewSelectedStyleTests"
+               ReferencedContainer = "container:TableViewSelectedStyle.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E14AF3441D4745C800B2A49A"
+               BuildableName = "TableViewSelectedStyleUITests.xctest"
+               BlueprintName = "TableViewSelectedStyleUITests"
+               ReferencedContainer = "container:TableViewSelectedStyle.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E14AF3251D4745C800B2A49A"
+            BuildableName = "TableViewSelectedStyle.app"
+            BlueprintName = "TableViewSelectedStyle"
+            ReferencedContainer = "container:TableViewSelectedStyle.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E14AF3251D4745C800B2A49A"
+            BuildableName = "TableViewSelectedStyle.app"
+            BlueprintName = "TableViewSelectedStyle"
+            ReferencedContainer = "container:TableViewSelectedStyle.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E14AF3251D4745C800B2A49A"
+            BuildableName = "TableViewSelectedStyle.app"
+            BlueprintName = "TableViewSelectedStyle"
+            ReferencedContainer = "container:TableViewSelectedStyle.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
